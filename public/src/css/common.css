@@ -5,7 +5,7 @@
 
 html,
 body {
-  color: #373D42;
+  color: #282323;
   font-family: 'Open Sans', sans-serif;
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
@@ -114,7 +114,7 @@ margin-left: 0;
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
 
 .navbar-default {
-  background-color: #8DC429;
+  background-color: #1b1e24;
   margin: 0;
   border: 0;
 }
@@ -181,7 +181,7 @@ margin-left: 0;
 }
 
 .navbar-form .form-control {
-  background-color: #7CAD23;
+  background-color: #22262e;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -216,18 +216,17 @@ margin-left: 0;
 }
 
 #search::-webkit-input-placeholder {
-  color: #BCDF7E;
+  color: #8b91a0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-style: italic;
-  font-weight: 100;
+  font-size: 13px;
+  font-weight: 300;
 }
 
 #search::-moz-placeholder {
-  color: #BCDF7E;
+  color: #8b91a0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 100;
+  font-size: 13px;
+  font-weight: 300;
 }
 
 .status {
@@ -747,4 +746,12 @@ a.v_highlight_more {
 
 @media (min-width: 768px) {
   #search { color: #fff; }
+}
+
+table th {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+table td {
+  font-size: 13px;
 }
