@@ -479,6 +479,12 @@ margin-left: 0;
 
 .code { font-size: 80%; }
 
+code {
+  padding: 10px;
+  display: block;
+  font-size: 80%;
+}
+
 .address { font-size: 11px; }
 
 .no_matching {
