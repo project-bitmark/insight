@@ -60,19 +60,29 @@
       </div>
 
       <div class="col-xs-12 col-md-4 col-gray">
-        <h2>bitmark <span class="semi-bold">block explorer</span></h2>
+        <h2>bitmark <span class="semi-bold">explorer</span></h2>
         <p>
           The <a href="http://bitmark.co/">bitmark</a> block explorer is built upon
           <a href="http://insight.is/" target="_blank">insight</a>, it also features
-          an API for us in applications.
+          an API for use in applications.
         </p>
+        <h3>HTTP <span class="semi-bold">API</h3>
+        <p>A range of <a href="https://github.com/project-bitmark/insight-api#api">API methods</a>
+        are also available, some common methods are listed below.
+        </p>  
         <code>
-           /api/block/[:hash]
-           /api/tx/[:txid]
-           /api/addr/[:addr][?noTxList=1]
-           /api/addr/[:addr]/utxo
+           /api/block/[:hash]<br>
+           /api/tx/[:txid]<br>
+           /api/addr/[:addr][?noTxList=1]<br>
+           /api/addr/[:addr]/utxo<br>
+           /api/txs/?block=[:hash]<br>
+           /api/txs/?address=[:hash]<br>
+           /api/status?q=getInfo<br>
+           /api/status?q=getDifficulty<br>
+           /api/status?q=getLastBlockHash<br>
         </code>
-        <p><strong>insight</strong> is still in development, so be sure to report any bugs and provide feedback for improvement at our <a href="https://github.com/bitpay/insight/issues" target="_blank">github issue tracker</a>.</p>
+        <p>This explorer is still in development, so be sure to report any bugs and provide feedback for improvement at either the <a href="https://github.com/bitpay/insight/issues" target="_blank">insight issue tracker</a>
+        or on the <a href="https://github.com/project-bitmark/insight/issues" target="_blank">project-bitmark/insight github</a> .</p>
         <div id="powered" class="row">
           <div class="powered-text">
             <small class="text-muted">Powered by</small>
