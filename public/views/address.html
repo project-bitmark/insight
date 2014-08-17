@@ -17,15 +17,14 @@
       </a>
     </div>
   </div>
-  <h1>Address <small data-ng-show="address.addrStr">{{$root.currency.getConvertion(address.balance) || address.balance + ' BTM'}}</small></h1>
+  <h2>Address <span class="semi-bold">{{address.addrStr}}</span> <span class="btn-copy" clip-copy="address.addrStr"></span></h2>
   <div class="text-muted" data-ng-if="!address.addrStr">
     <span>Loading Address Information <span class="loader-gif"></span>
   </div>
   <div data-ng-if="address.addrStr">
     <div class="well well-sm ellipsis">
-      <strong>Address</strong> 
-      <span class="text-muted">{{address.addrStr}}</span>
-      <span class="btn-copy" clip-copy="address.addrStr"></span>
+      <strong>Balance</strong> 
+      <span class="text-muted">{{$root.currency.getConvertion(address.balance) || address.balance + ' BTM'}}</span>
     </div>
     <h2>Summary <small>confirmed</small></h2>
     <div class="row" data-ng-hide="!address.addrStr">
