@@ -6,14 +6,14 @@
 html,
 body {
   color: #373D42;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #373D42;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak],
@@ -121,7 +121,7 @@ margin-left: 0;
 
 .navbar-default .navbar-nav>li>a {
   color: #F4FBE8;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -164,7 +164,7 @@ margin-left: 0;
 }
 
 .insight {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 34px;
   font-style: italic;
   font-weight: 700;
@@ -198,7 +198,7 @@ margin-left: 0;
 
 #search-form { color: #fff; }
 
-#search { font-family: 'Ubuntu', sans-serif; }
+#search { font-family: 'Open Sans', sans-serif; }
 
 #search.loading {
   background-image: url('/img/loading.gif');
@@ -217,7 +217,7 @@ margin-left: 0;
 
 #search::-webkit-input-placeholder {
   color: #BCDF7E;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-style: italic;
   font-weight: 100;
@@ -225,7 +225,7 @@ margin-left: 0;
 
 #search::-moz-placeholder {
   color: #BCDF7E;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 100;
 }
