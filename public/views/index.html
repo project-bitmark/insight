@@ -60,11 +60,18 @@
       </div>
 
       <div class="col-xs-12 col-md-4 col-gray">
-        <h2> About </h2>
-        <p><strong>insight</strong>  is an <a href="http://live.insight.is/" target="_blank">open-source Bitmark blockchain explorer</a> with complete REST
-and websocket APIs that can be used for writing web wallets and other apps 
-that need more advanced blockchain queries than provided by bitmarkd RPC. 
-Check out the <a href="http://github.com/bitpay/insight" target="_blank">source code</a>.</p>
+        <h2>bitmark <span class="semi-bold">block explorer</span></h2>
+        <p>
+          The <a href="http://bitmark.co/">bitmark</a> block explorer is built upon
+          <a href="http://insight.is/" target="_blank">insight</a>, it also features
+          an API for us in applications.
+        </p>
+        <code>
+           /api/block/[:hash]
+           /api/tx/[:txid]
+           /api/addr/[:addr][?noTxList=1]
+           /api/addr/[:addr]/utxo
+        </code>
         <p><strong>insight</strong> is still in development, so be sure to report any bugs and provide feedback for improvement at our <a href="https://github.com/bitpay/insight/issues" target="_blank">github issue tracker</a>.</p>
         <div id="powered" class="row">
           <div class="powered-text">
