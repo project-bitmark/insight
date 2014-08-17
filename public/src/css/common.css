@@ -440,19 +440,18 @@ margin-left: 0;
 
 /* Set the fixed height of the footer here */
 #footer {
-  background-color: #373D42;
+  background-color: #22262e;
   color: #fff;
   height: 51px;
   overflow: hidden;
 }
 
-#footer a.insight {
-  font-size: 20px;
+#footer a {
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 
-#footer a.insight:hover {
+#footer a:hover {
   color: #fffffe;
 }
 
@@ -485,6 +484,7 @@ code {
   font-size: 80%;
 }
 
+.whitelink { color: white; }
 .address { font-size: 11px; }
 
 .no_matching {
