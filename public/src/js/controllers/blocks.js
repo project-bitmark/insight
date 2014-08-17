@@ -49,7 +49,7 @@ angular.module('insight.blocks').controller('BlocksController',
     $scope.loading = true;
 
     if ($routeParams.blockDate) {
-      $scope.detail = 'On ' + $routeParams.blockDate;
+      $scope.detail = $routeParams.blockDate;
     }
 
     if ($routeParams.startTimestamp) {
