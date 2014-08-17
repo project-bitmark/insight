@@ -22,11 +22,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 #bitmark-logo {
-  padding: 5px;
-  width: 55px;
+  padding: 12px;
+  width: 40px;
 }
-#bitmark-logo {
-  width: 55px;
+#bitmark-logo img {
+  width: 40px;
 }
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak],
