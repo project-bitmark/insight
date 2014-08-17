@@ -21,6 +21,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 600;
 }
 
+#bitmark-logo {
+  padding: 5px;
+  width: 55px;
+}
+#bitmark-logo {
+  width: 55px;
+}
+
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak],
 .ng-cloak, .x-ng-cloak,
 .ng-hide {
