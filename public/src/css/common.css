@@ -350,6 +350,8 @@ margin-left: 0;
 
 .btn {
   border-radius: 2px;
+  border-width: 0px;
+  border-style: none;
 }
 
 .btn-primary {
@@ -406,7 +408,7 @@ margin-left: 0;
 }
 
 .txvalues-primary {
-  background-color: #8DC429;
+  background-color: #0aa699;
 }
 
 .txvalues-default {
@@ -415,11 +417,11 @@ margin-left: 0;
 }
 
 .txvalues-success {
-  background-color: #2FA4D7;
+  background-color: #0090d9;
 }
 
 .txvalues-danger {
-  background-color: #AC0015;
+  background-color: #f35958;
 }
 
 .txvalues-normal {
