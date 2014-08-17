@@ -23,7 +23,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 #bitmark-logo {
   padding: 12px;
-  width: 40px;
+  width: 70px;
+  margin-left: 0;
 }
 #bitmark-logo img {
   width: 40px;
