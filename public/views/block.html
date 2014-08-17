@@ -9,7 +9,7 @@
         <div class="col-md-10">
           <div class="row">
             <div class="col-md-5">
-            <h3 class="text-left">Block #{{block.height}}</h3>
+            <h3 class="text-left">Block <span class="semi-bold">#{{block.height}}</span></h3>
             </div>
             <p class="col-md-6 ellipsis text-left">
                 <strong>Hash</strong> {{block.hash}}
@@ -31,7 +31,7 @@
       </a>
     </div>
   </div>
-  <h1>Block #{{block.height}}</h1>
+  <h2>Block <span class="semi-bold">#{{block.height}}</span></h2>
   <div class="text-muted" data-ng-if="!block.hash">
     <span>Loading Block Information  <span class="loader-gif"></span>
   </div>
@@ -63,7 +63,7 @@
           </tr> 
           <tr>
             <td><strong>Timestamp</strong></td>
-            <td class="text-right text-muted">{{block.time * 1000 | date:'medium'}}</td>
+            <td class="text-right text-muted">{{block.time * 1000 | date:'medium'}} ({block.time * 1000})</td>
           </tr>
           <tr data-ng-show="block.poolInfo">
             <td><strong>Mined by</strong></td>
