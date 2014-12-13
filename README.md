@@ -17,9 +17,9 @@ Check some screenshots and more details at [insight's project homepage](http://i
 ## Quick Install
   Check the Prerequisites section above before installing.
 
-  To install Insight, clone the main repository:
+  To install, clone this repository and change to it:
 
-    $ git clone https://github.com/bitpay/insight.git && cd insight
+    $ git clone https://github.com/project-bitmark/insight.git
 
   Install dependencies:
 
